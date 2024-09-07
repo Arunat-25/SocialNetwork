@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Chats </title>
+</head>
+<body>
+    {% for chat in chats %}
+        <li><a href="{%url 'send_message' chat.username%}">{{ chat.message }}</li>
+    {% endfor %}
+</body>
+</html>

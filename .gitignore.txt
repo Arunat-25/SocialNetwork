@@ -1,0 +1,3 @@
+/venv/
+/chat/db.sqlite3/
+/chat/users/migrations/
